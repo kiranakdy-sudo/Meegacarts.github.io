@@ -37,6 +37,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <a href="cart.html">🛒 View Cart</a>
 
+  <div>
+  <button onclick="filterProducts('all')">All</button>
+  <button onclick="filterProducts('clothes')">Clothes</button>
+  <button onclick="filterProducts('stationery')">Stationery</button>
+</div>
+
+<input type="text" id="searchInput" onkeyup="searchProducts()" placeholder="Search products...">
+
+
   <script src="script.js"></script>
 </body>
 </html>
